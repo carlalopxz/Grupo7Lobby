@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link href="Content\bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 
 <!-- En cada div = col, agregamos nuestra "presentación" -->
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-dark bg-dark" > 
-            <a src="presentacion.html"> Home </a>
-            <a src="index.html"> About Us </a>
+    <header class="container">
+        <nav class="navbar  navbar-dark bg-dark " > 
+            <a href="presentacion.html"> Home </a>
+            <a href="index.html"> About Us </a>
         </nav>
-    </div>
+    </header>
 
-    <div class="container" > 
+    <main class="container" > 
         <div class="row" > 
             <div id="boris" class="col">
                 Boris 
@@ -39,10 +39,13 @@
                 Gustavito
             </div>
             <div class="col" >
-                Carla
+                <section id="fotoYNombre">
+                    <!-- <img src="./img/carla.png" alt=""> -->
+                    <h3>Carla Lopez</h3>
+                </section>
             </div>
         </div>
-    </div>
+    </main>
     
 </body>
 </html>
